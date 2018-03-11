@@ -29,3 +29,16 @@ https://stackoverflow.com/questions/41524881/gluon-ios-java-io-ioexception-canno
 
 You can use gradlew createIpa to create the iOS app
 
+
+-----Common errors
+
+-Black screen app in android
+	Probably you have bad main configuration of manifest(the main class)
+-Cannot run program "security" building .IPA.
+	Try building on a mac, you need some mac tools.
+	
+	
+I hope it helps. 
+
+Have a nice day.
+
