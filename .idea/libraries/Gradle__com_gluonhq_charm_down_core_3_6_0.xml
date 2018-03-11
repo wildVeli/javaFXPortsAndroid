@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gluonhq:charm-down-core:3.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/charm-down-core/3.6.0/a1f6ac7cacbc5beb89ed0494343b823fc7b08e80/charm-down-core-3.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/charm-down-core/3.6.0/1fc5102926f7f2686c133b5b4b92240a8b7c8932/charm-down-core-3.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

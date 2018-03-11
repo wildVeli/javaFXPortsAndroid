@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="prueba.prueba-1.0-SNAPSHOT-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/prueba/build/libs/prueba-1.0-SNAPSHOT-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

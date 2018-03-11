@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<View fx:id="login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tartangatickets.views.LoginController">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="250.0" prefWidth="295.0" spacing="20.0">
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+               <children>
+                  <HBox prefHeight="18.0" prefWidth="295.0" spacing="20.0">
+                     <children>
+                        <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label prefHeight="26.0" prefWidth="119.0" text="Usuario:" />
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="26.0" prefWidth="200.0">
+                           <children>
+                              <TextField fx:id="tfUser" prefHeight="26.0" prefWidth="204.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="18.0" prefWidth="295.0" spacing="20.0">
+                     <children>
+                        <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label prefHeight="52.0" prefWidth="100.0" text="Contraseña:" />
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="26.0" prefWidth="200.0">
+                           <children>
+                              <PasswordField fx:id="pfPass" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="185.0" prefWidth="295.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="105.0" prefWidth="295.0" spacing="20.0">
+                           <children>
+                              <Button fx:id="btnAccess" mnemonicParsing="false" onAction="#handleButtonAccess" prefHeight="32.0" prefWidth="170.0" text="Acceder" />
+                              <Button fx:id="btnRecoverpass" mnemonicParsing="false" onAction="#handleButtonRecoverpass" prefHeight="32.0" prefWidth="170.0" text="Recuperar Contraseña" underline="true" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="228.0" prefWidth="295.0">
+               <children>
+                  <ImageView fx:id="ivImagenInicio" fitHeight="150.0" fitWidth="295.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../drawable/llave.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </center>
+</View>
